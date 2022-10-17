@@ -112,6 +112,7 @@ h2 {
 }
 
 .text {
+  width: 280px;
 	background-color: rgba (0,0,0,0.5);
 	margin: 0 auto;
 	padding: 20px;
@@ -128,7 +129,7 @@ h2 {
   position: absolute;
   content: '';
   width: 90px;
-  height: 100vh;
+  height: 320px;
   background: #fce0a1;
   animation: animate 4s linear infinite;
 }
