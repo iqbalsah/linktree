@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&display=swap');
+@import url('http://fonts.googleapis.com/css/family=Quicksand:400,500&subset=latin-ext');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+}
+
+body {
+  background-color: rgb(27, 23, 23);
+}
+
+.bodi {
+  padding: 40px;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  letter-spacing: 2px;
+  margin-top: 10px;
+  color: #fce0a1;
+  font-size: 40px;
+}
+
+
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 40px auto;
+}
+
+main a {
+  margin: 10px;
+  text-decoration: none;
+}
+
+button {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  padding: 10px;
+  margin: 0 auto;
+  align-items: center;
+  border-radius: 7px;
+  transition: .5s;
+  background: #fce0a1;
+}
+
+button:hover {
+  background: #fce0a1;
+  border: 2px solid #F7E9DA;
+  box-shadow: 0 0 7px 0 #F7E9DA inset, 0 0 7px 4px #F7E9DA;
+  border-radius: 7px;
+  transform: scale(.95);
+}
+
+svg {
+  height: 30px;
+}
+
+p {
+  margin: auto;
+}
+
+.container {
+	padding: 40px;
+	height: 100vh;
+	margin: 0 auto;
+	border-radius: 10px;
+	border: none;
+	
+}
+
+.img {
+	background-image: url(profile.jpg);
+	background-color: black;
+	background-size: cover;
+	border-radius: 100px;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+
+h2 {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 25px;
+	font-weight: bold;
+	color: #fce0a1;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.bio {
+  font-size: 12px;
+  position: relative;
+  z-index: 99;
+}
+
+.text {
+	background-color: rgba (0,0,0,0.5);
+	margin: 0 auto;
+	padding: 20px;
+	color: white;
+	border-radius: 20px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.text:before {
+  position: absolute;
+  content: '';
+  width: 90px;
+  height: 320px;
+  background: #fce0a1;
+  animation: animate 4s linear infinite;
+}
+
+.text:after {
+  content: '';
+  position: absolute;
+  background: rgb(27, 23, 24);
+  inset: 4px;
+  border-radius: 16px;
+}
+
+@keyframes animate 
+{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg)
+  }
+}
+  
+
+
