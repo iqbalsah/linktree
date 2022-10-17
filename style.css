@@ -128,7 +128,7 @@ h2 {
   position: absolute;
   content: '';
   width: 90px;
-  height: 320px;
+  height: 100vh;
   background: #fce0a1;
   animation: animate 4s linear infinite;
 }
